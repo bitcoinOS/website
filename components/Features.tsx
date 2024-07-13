@@ -72,7 +72,7 @@ export default function Hero() {
 
   return (
     <div className="flex flex-col items-center bg-white py-[100px]">
-      <h1 className="text-5xl font-bold">What&apos; bitcoinOS</h1>
+      <h2 className="text-5xl font-bold">What&apos; bitcoinOS</h2>
       <p className="text-xl text-gray-600 font-400 italic mt-2">Make bitcoin the center of finance</p>
       <div className="flex flex-row w-full mt-16 px-[80px]">
         <div className="w-1/2 space-y-4 font-500 text-2xl">
