@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="z-10 flex h-full flex-col justify-center w-[400px]">
           <h1 className="text-[80px] leading-none font-bold italic">bitcoinOS</h1>
           <p className="mt-8 text-2xl font-400">A Bitcoin Native Smart Contract & Finance Layer</p>
-          <button className="mt-8 btn bg-slate-950 btn-neutral btn-sm h-[44px] w-[160px]">Stake Now</button>
+          <button className="mt-8 btn bg-slate-950 btn-neutral btn-sm h-[44px] w-[160px] text-slate-200">Stake Now</button>
         </div>
         <div className="w-2/3 z-0">
           <Image src="/bitcoin_img_1.png" alt="" className='absolute -bottom-44 -right-16' width={880} height={880} />

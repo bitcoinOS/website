@@ -101,7 +101,7 @@ export default function Header() {
             links.map(({ text, links }) => (
               <li key={text} className={links?.length ? 'dropdown' : ''}>
                 <a
-                  className={`over:text-link dark:hover:text-white px-4 py-1 flex items-center`}
+                  className={`px-4 py-1 flex items-center text-slate-500 hover:text-slate-800 transition-colors cursor-pointer`}
                   // href=""
                   onClick={() => handleGoTo(text)}
                 >
@@ -117,7 +117,7 @@ export default function Header() {
       >
         <div className="items-center flex justify-between w-full md:w-auto">
           <div className="flex">
-            <button className="btn bg-slate-950 btn-neutral btn-sm h-[36px]">Launch App</button> 
+            <button className="btn bg-slate-950 btn-neutral btn-sm h-[36px] text-slate-200">Launch App</button> 
           </div>
         </div>
       </div>
