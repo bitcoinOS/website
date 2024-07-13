@@ -78,7 +78,7 @@ export default function Hero() {
         <div className="w-1/2 space-y-4 font-500 text-2xl">
           {
             list.map(({ title }, index) => (
-              <div onMouseEnter={() => handleMouseEnter(index)} onMouseLeave={handleMouseLeave} key={title} className={`group cursor-pointer h-[100px] border text-black p-4 rounded-lg flex items-center justify-between ${(activeIndex === index) ? "bg-orange-300 border-orange-400" : "border-slate-300"}`}>
+              <div onMouseEnter={() => handleMouseEnter(index)} onMouseLeave={handleMouseLeave} key={title} className={`group cursor-pointer h-[100px] border text-black p-4 rounded-3xl flex items-center justify-between ${(activeIndex === index) ? "bg-orange-300 border-orange-400" : "border-slate-300"}`}>
                 <span>{title}</span>
                 <BiArrowRightCircleFill className={`text-5xl delay-200 duration-300 text-slate-950 mr-4 opacity-0 transition-all group-hover:mr-0 group-hover:opacity-100 ${activeIndex === index && "mr-0 opacity-100"}`} />
                 {/* <button className="bg-black text-white rounded-full p-2">&#x27A4;</button> */}
@@ -86,7 +86,7 @@ export default function Hero() {
             ))
           }
         </div>
-        <div onMouseEnter={() => setIsMouseEnter(true)} onMouseLeave={() => setIsMouseEnter(false)} className="relative w-1/2 bg-white border border-orange-300 rounded-lg ml-10 bg-orange-100/10">
+        <div onMouseEnter={() => setIsMouseEnter(true)} onMouseLeave={() => setIsMouseEnter(false)} className="relative w-1/2 bg-white border border-orange-300 rounded-3xl ml-10 bg-orange-100/10">
           {
             list.map(({ title, description }, index) => (
               <div key={title} className={`absolute h-full top-0 p-6 flex flex-col transition-all duration-300 delay-200 ${activeIndex === index ? "opacity-100 ml-0" : "opacity-0 -ml-4"}`}>

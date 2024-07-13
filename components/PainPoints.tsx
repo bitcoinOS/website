@@ -42,10 +42,10 @@ export default function PainPoints(){
       <div className="text-center mb-14">
         <h2 className="text-5xl font-bold">Bitcoin Pain Points</h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
         {
           painPoints.map((point, index) => (
-            <div key={index} className={`bg-white p-8 rounded-lg shadow-md`}>
+            <div key={index} className={`bg-white p-8 rounded-3xl`}>
               <h3 className={`text-2xl font-semibold mb-10 ${point.color}`}>{point.title}</h3>
               <p className="text-lg">{point.description}</p>
             </div>
@@ -60,7 +60,7 @@ export default function PainPoints(){
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {
           solutions.map((solution, index) => (
-            <div key={index} className={`bg-white p-8 rounded-lg shadow-md`}>
+            <div key={index} className={`bg-white p-8 rounded-3xl`}>
               <h3 className={`text-2xl font-semibold mb-10 ${solution.color}`}>{solution.title}</h3>
               <p className="text-lg">{solution.description}</p>
             </div>

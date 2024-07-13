@@ -36,7 +36,7 @@ export default function Highlight() {
       </div>
       {
         paragraphs.map((paragraph, index) => (
-          <div key={index} className={`p-8 rounded-lg space-y-8 ${paragraph.className}`}>
+          <div key={index} className={`p-8 rounded-3xl space-y-8 ${paragraph.className}`}>
             <h3 className={`text-3xl font-semibold mb-10 ${paragraph.titleColor}`}>{paragraph.title}</h3>
             {
               paragraph.descriptions.map((description, index) => (
