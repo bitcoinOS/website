@@ -8,23 +8,19 @@ export default function Header() {
   const links = [
     {
       text: 'Home',
-      links: []
+      link: '/'
     },
     {
       text: 'Highlight',
-      links: []
     },
     {
       text: 'Product Solutions',
-      links: []
     },
     {
       text: 'Technical Solutions',
-      links: []
     },
     {
       text: 'Our Advantages',
-      links: []
     },
   ]
 
@@ -58,33 +54,15 @@ export default function Header() {
   }
 
   return <header
-    // class:list={[
-    //   { sticky: isSticky, relative: !isSticky, dark: isDark },
-    //   '',
-    // ]}
-    className={`top-0 z-40 flex-none bg-white/95 mx-auto w-full border-b transition-[opacity] transition-colors ease-in-out sticky backdrop-blur-md dark:bg-dark-header ${isScrolling ? 'border-gray-50/6 bg-white/0' : 'border-transparent'}`}
+    className={`top-0 z-40 flex-none mx-auto w-full border-b transition-[opacity] transition-colors ease-in-out sticky backdrop-blur-md dark:bg-dark-header ${isScrolling ? 'border-gray-50/6 bg-white/20' : 'bg-white/80 border-transparent'}`}
   >
     <div className="absolute inset-0"></div>
     <div
-      // class:list={[
-      //   'relative text-default py-3 px-3 md:px-6 mx-auto w-full',
-      //   {
-      //     'md:flex md:justify-between': position !== 'center',
-      //   },
-      //   {
-      //     'md:grid md:grid-cols-3 md:items-center': position === 'center',
-      //   },
-      //   {
-      //     'max-w-7xl': !isFullWidth,
-      //   },
-      // ]}
       className="relative text-default py-3 px-3 md:px-10 mx-auto w-full flex md:items-center"
     >
       <div className="flex justify-between">
         <a className="flex items-center" href="/">
-          {/* <Logo /> */}
           <Image className='h-8' width={130} height={32} src="/bitcoinOS-logo.png" alt=""  />
-          {/* <img className='h-8' src="/bitcoinOS-logo.png" alt="" /> */}
         </a>
         <div className="flex items-center md:hidden">
           <ToggleMenu />
@@ -98,11 +76,11 @@ export default function Header() {
           className="flex flex-col md:flex-row md:self-center w-full md:w-auto text-xl md:text-sm tracking-[0.01rem] font-medium md:justify-center mb-0"
         >
           {
-            links.map(({ text, links }) => (
+            links.map(({ text, link }) => (
               <li key={text} className={links?.length ? 'dropdown' : ''}>
                 <a
                   className={`px-4 py-1 flex items-center text-slate-500 hover:text-slate-800 transition-colors cursor-pointer`}
-                  // href=""
+                  href={link}
                   onClick={() => handleGoTo(text)}
                 >
                   {text}

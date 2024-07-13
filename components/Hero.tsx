@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className="relative w-screen bg-gradient-to-br -mt-[60px] bg-[#fce4bc] from-[#fce4bc] via-pink-[#f3bda5] to-purple-300 text-white py-20 h-[700px] overflow-hidden">
+    <section className="relative w-full bg-gradient-to-br -mt-[60px] bg-[#fce4bc] from-[#fce4bc] via-pink-[#f3bda5] to-purple-300 text-white py-20 h-[700px] overflow-hidden">
       <div className="flex h-full mx-24 text-left">
         <div className="z-10 flex h-full flex-col justify-center w-[400px]">
           <h1 className="text-[80px] leading-none font-bold italic">bitcoinOS</h1>
