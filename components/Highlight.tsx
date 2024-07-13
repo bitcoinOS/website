@@ -29,7 +29,7 @@ export default function Highlight() {
     },
   ]
   return (
-    <section className="py-[100px] px-[80px]">
+    <section id="Highlight" className="py-[100px] px-[80px]">
       <div className="grid grid-cols-6 gap-8">
       <div className="col-span-2 bg-slate-100/30 border-2 border-slate-200 p-8 rounded-lg space-y-8">
         <h3 className="text-5xl font-bold">Highlight</h3>

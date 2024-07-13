@@ -29,7 +29,7 @@ export default function Solutions() {
     }
   ]
   return (
-    <section id="solutions" className="bg-blue-50 py-[100px] px-[80px]">
+    <section id="Product Solutions" className="bg-blue-50 py-[100px] px-[80px]">
       <div className="container mx-auto">
         <h2 className="text-5xl font-bold text-center">Product Solutions</h2>
         <div className="mt-[80px] grid grid-cols-2 gap-20">

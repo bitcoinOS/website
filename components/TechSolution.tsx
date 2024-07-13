@@ -7,7 +7,7 @@ export default function TechSolution() {
   const canisterList = ["Ordinals/Atomicals Canister", "RGB Canister", "BitVM Canister"]
   const infrastructureList = ["Bitcoin Canister", "ckBTC Canister"]
   return (
-    <section id="solutions" className="py-[100px] px-[80px]">
+    <section id="Technical Solutions" className="py-[100px] px-[80px]">
       <h2 className="text-5xl font-bold text-center">Our Technical Solutions</h2>
       <div className="grid grid-cols-3 gap-16 mt-[80px]">
         <div className="col-span-2 rounded-3xl border-2 border-slate-400 space-y-4 p-5">

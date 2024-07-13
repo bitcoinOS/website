@@ -51,7 +51,7 @@ export default function Header() {
     const target = document.getElementById(id)
     if (target) {
       scrollTo({
-        top: target.offsetTop - 80,
+        top: target.offsetTop - 60,
         behavior: 'smooth'
       })
     }

@@ -32,7 +32,7 @@ export default function Advantages() {
   ]
 
   return (
-    <section id="solutions" className="py-[100px] px-[80px] bg-gradient-to-b from-[#FFE9CF] to-[#F6E7FF]">
+    <section id="Our Advantages" className="py-[100px] px-[80px] bg-gradient-to-b from-[#FFE9CF] to-[#F6E7FF]">
       <h2 className="text-5xl font-bold text-center">Our Advantages</h2>
       <div className="grid grid-cols-5 gap-2 mt-[80px]">
         {
