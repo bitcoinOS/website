@@ -62,7 +62,7 @@ export default function Header() {
     //   { sticky: isSticky, relative: !isSticky, dark: isDark },
     //   '',
     // ]}
-    className={`top-0 z-40 flex-none mx-auto w-full border-b transition-[opacity] transition-colors ease-in-out sticky backdrop-blur-md dark:bg-dark-header ${isScrolling ? 'border-gray-50/6' : 'border-transparent'}`}
+    className={`top-0 z-40 flex-none bg-white/95 mx-auto w-full border-b transition-[opacity] transition-colors ease-in-out sticky backdrop-blur-md dark:bg-dark-header ${isScrolling ? 'border-gray-50/6 bg-white/0' : 'border-transparent'}`}
   >
     <div className="absolute inset-0"></div>
     <div
@@ -91,7 +91,7 @@ export default function Header() {
         </div>
       </div>
       <nav
-        className="flex-1 items-center w-full md:w-auto hidden md:flex md:mx-5  text-default overflow-y-auto overflow-x-hidden md:overflow-y-visible md:overflow-x-auto md:justify-self-center md:px-20"
+        className="flex-1 items-center w-full md:w-auto hidden md:flex  text-default overflow-y-auto overflow-x-hidden md:overflow-y-visible md:overflow-x-auto md:justify-self-center md:px-20"
         aria-label="Main navigation"
       >
         <ul
@@ -101,7 +101,7 @@ export default function Header() {
             links.map(({ text, links }) => (
               <li key={text} className={links?.length ? 'dropdown' : ''}>
                 <a
-                  className={`over:text-link dark:hover:text-white px-4 py-3 flex items-center`}
+                  className={`over:text-link dark:hover:text-white px-4 py-1 flex items-center`}
                   // href=""
                   onClick={() => handleGoTo(text)}
                 >
