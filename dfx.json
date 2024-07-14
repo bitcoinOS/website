@@ -1,6 +1,6 @@
 {
   "canisters": {
-    "hello_assets": {
+    "bitcoinOS": {
       "frontend": {
         "entrypoint": "out/index.html"
       },
