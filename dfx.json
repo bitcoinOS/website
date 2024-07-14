@@ -1,0 +1,13 @@
+{
+  "canisters": {
+    "hello_assets": {
+      "frontend": {
+        "entrypoint": "out/index.html"
+      },
+      "source": ["out"],
+      "type": "assets"
+    }
+  },
+
+  "version": 1
+}
