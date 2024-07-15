@@ -71,11 +71,11 @@ export default function Hero() {
   })
 
   return (
-    <div className="flex flex-col items-center bg-white py-[100px]">
-      <h2 className="text-5xl font-bold">What&apos; bitcoinOS</h2>
-      <p className="text-xl text-gray-600 font-400 italic mt-2">Make bitcoin the center of finance</p>
-      <div className="flex flex-row w-full mt-16 px-[80px]">
-        <div className="w-1/2 space-y-4 font-500 text-2xl">
+    <div className="flex flex-col items-center bg-white py-10 xl:py-[100px]">
+      <h2 className="text-3xl xl:text-5xl font-bold">What&apos; bitcoinOS</h2>
+      <p className="text-sm xl:text-xl text-gray-600 font-400 italic mt-2">Make bitcoin the center of finance</p>
+      <div className="flex flex-row w-full mt-6 xl:mt-16 px-5 xl:px-[80px]">
+        <div className="hidden xl:block xl:w-1/2 space-y-4 font-500 text-2xl">
           {
             list.map(({ title }, index) => (
               <div onMouseEnter={() => handleMouseEnter(index)} onMouseLeave={handleMouseLeave} key={title} className={`group cursor-pointer h-[100px] border text-black p-8 rounded-3xl flex items-center justify-between ${(activeIndex === index) ? "bg-orange-300 border-orange-400" : "border-slate-300"}`}>
@@ -86,10 +86,10 @@ export default function Hero() {
             ))
           }
         </div>
-        <div onMouseEnter={() => setIsMouseEnter(true)} onMouseLeave={() => setIsMouseEnter(false)} className="relative w-1/2 bg-white border border-orange-300 rounded-3xl ml-10 bg-orange-100/10">
+        <div onMouseEnter={() => setIsMouseEnter(true)} onMouseLeave={() => setIsMouseEnter(false)} className="xl:relative w-full space-y-4 xl:space-y-0 xl:w-1/2 xl:border xl:border-orange-300 rounded-3xl xl:ml-10 bg-orange-100/10 flex flex-col">
           {
             list.map(({ title, description }, index) => (
-              <div key={title} className={`absolute h-full top-0 p-12 flex flex-col transition-all duration-300 delay-200 ${activeIndex === index ? "opacity-100 ml-0" : "opacity-0 -ml-4"}`}>
+              <div key={title} className={`relative w-full bg-orange-100/10 border border-orange-300 rounded-3xl xl:border-none xl:absolute xl:h-full top-0 p-12 flex flex-col transition-all duration-300 delay-200 ${activeIndex === index ? "xl:opacity-100 xl:ml-0" : "xl:opacity-0 xl:-ml-4"}`}>
                 <h2 className="text-xl font-bold">{title}</h2>
                 <ol className="flex-1 flex flex-col justify-between list-decimal list-inside mt-10 text-lg">
                   {
@@ -98,10 +98,10 @@ export default function Hero() {
                     ))
                   }
                 </ol>
+                <Image className="absolute bottom-0 right-4" alt="" height={240} width={180} src="/bitcoin_shape.png"></Image>
               </div>
             ))
           }
-          <Image className="absolute bottom-0 right-9" alt="" height={240} width={180} src="/bitcoin_shape.png"></Image>
         </div>
       </div>
     </div>
