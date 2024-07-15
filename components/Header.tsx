@@ -79,7 +79,7 @@ export default function Header() {
             links.map(({ text, link }) => (
               <li key={text} className={links?.length ? 'dropdown' : ''}>
                 <a
-                  className={`px-4 py-1 flex items-center text-slate-500 hover:text-slate-800 transition-colors cursor-pointer`}
+                  className={`px-4 py-1 flex items-center text-slate-800 hover:text-slate-500 transition-colors cursor-pointer`}
                   href={link}
                   onClick={() => handleGoTo(text)}
                 >
