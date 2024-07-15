@@ -58,22 +58,22 @@ export default function Header() {
   >
     <div className="absolute inset-0"></div>
     <div
-      className="relative text-default py-3 px-3 md:px-10 mx-auto w-full flex md:items-center"
+      className="relative text-default py-3 px-3 xl:px-10 mx-auto w-full flex xl:items-center"
     >
-      <div className="flex justify-between w-full md:w-auto">
-        <a className="flex items-center ml-2 md:ml-0" href="/">
+      <div className="flex justify-between w-full xl:w-auto">
+        <a className="flex items-center ml-2 xl:ml-0" href="/">
           <Image className='h-8' width={130} height={32} src="/bitcoinOS-logo.png" alt=""  />
         </a>
-        <div className="flex items-center md:hidden">
+        <div className="flex items-center xl:hidden">
           <ToggleMenu />
         </div>
       </div>
       <nav
-        className="flex-1 items-center w-full md:w-auto hidden md:flex  text-default overflow-y-auto overflow-x-hidden md:overflow-y-visible md:overflow-x-auto md:justify-self-center md:px-20"
+        className="flex-1 items-center w-full xl:w-auto hidden xl:flex  text-default overflow-y-auto overflow-x-hidden xl:overflow-y-visible xl:overflow-x-auto xl:justify-self-center xl:px-20"
         aria-label="Main navigation"
       >
         <ul
-          className="flex flex-col md:flex-row md:self-center w-full md:w-auto text-xl md:text-sm tracking-[0.01rem] font-medium md:justify-center mb-0"
+          className="flex flex-col xl:flex-row xl:self-center w-full xl:w-auto text-xl xl:text-sm tracking-[0.01rem] font-medium xl:justify-center mb-0"
         >
           {
             links.map(({ text, link }) => (
@@ -91,9 +91,9 @@ export default function Header() {
         </ul>
       </nav>
       <div
-        className="hidden md:self-center md:flex items-center md:mb-0 fixed w-full md:w-auto md:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 md:p-0 md:justify-self-end"
+        className="hidden xl:self-center xl:flex items-center xl:mb-0 fixed w-full xl:w-auto xl:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 xl:p-0 xl:justify-self-end"
       >
-        <div className="items-center flex justify-between w-full md:w-auto">
+        <div className="items-center flex justify-between w-full xl:w-auto">
           <div className="flex">
             <button className="btn bg-slate-950 btn-neutral btn-sm h-[36px] text-slate-200">Launch App</button> 
           </div>
