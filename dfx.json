@@ -1,0 +1,13 @@
+{
+  "canisters": {
+    "bitcoinOS": {
+      "frontend": {
+        "entrypoint": "out/index.html"
+      },
+      "source": ["out"],
+      "type": "assets"
+    }
+  },
+
+  "version": 1
+}
