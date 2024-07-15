@@ -60,8 +60,8 @@ export default function Header() {
     <div
       className="relative text-default py-3 px-3 md:px-10 mx-auto w-full flex md:items-center"
     >
-      <div className="flex justify-between">
-        <a className="flex items-center" href="/">
+      <div className="flex justify-between w-full md:w-auto">
+        <a className="flex items-center ml-2 md:ml-0" href="/">
           <Image className='h-8' width={130} height={32} src="/bitcoinOS-logo.png" alt=""  />
         </a>
         <div className="flex items-center md:hidden">
