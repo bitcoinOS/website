@@ -9,10 +9,10 @@ export default function Footer() {
           <p className="text-xs text-slate-600 italic mt-3">Make bitcoin the center of finance</p>
         </div>
         <div className="flex space-x-10 text-base">
-          <a href="/" target="_blank">
+          <a href="https://github.com/bitcoinOS/website" target="_blank">
             <GithubIcon />
           </a>
-          <a href="/" target="_blank">
+          <a href="https://twitter.com/BitcoinOS_labs" target="_blank">
             <TwitterIcon />
           </a>
         </div>
