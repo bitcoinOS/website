@@ -37,32 +37,33 @@ export default function PainPoints(){
   ]
 
   return (
-    <div className="bg-gray-100 py-[100px] px-[80px]">
+    <div className="bg-gray-100 py-10 xl:py-[100px] px-5 xl:px-[80px]">
       {/* Bitcoin Pain Points Section */}
-      <div className="text-center mb-14">
-        <h2 className="text-5xl font-bold">Bitcoin Pain Points</h2>
+      <div className="text-center mb-5 xl:mb-14">
+        <h2 className="text-5xl font-bold hidden xl:block">Bitcoin Pain Points</h2>
+        <h2 className="text-3xl font-bold xl:hidden">Pain Points</h2>
       </div>
-      <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 mb-24">
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-4 xl:gap-8 mb-20 xl:mb-24">
         {
           painPoints.map((point, index) => (
             <div key={index} className={`bg-white p-8 rounded-3xl`}>
-              <h3 className={`text-2xl font-semibold mb-10 ${point.color}`}>{point.title}</h3>
-              <p className="text-lg">{point.description}</p>
+              <h3 className={`text-xl xl:text-2xl font-semibold mb-5 xl:mb-10 ${point.color}`}>{point.title}</h3>
+              <p className="text-sm xl:text-lg">{point.description}</p>
             </div>
           ))
         }
       </div>
 
       {/* How to Solve Section */}
-      <div className="text-center mb-14">
-        <h2 className="text-5xl font-bold">How to Solve</h2>
+      <div className="text-center mb-5 xl:mb-14">
+        <h2 className="text-3xl xl:text-5xl font-bold">How to Solve</h2>
       </div>
-      <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-4 xl:gap-8">
         {
           solutions.map((solution, index) => (
             <div key={index} className={`bg-white p-8 rounded-3xl`}>
-              <h3 className={`text-2xl font-semibold mb-10 ${solution.color}`}>{solution.title}</h3>
-              <p className="text-lg">{solution.description}</p>
+              <h3 className={`text-2xl font-semibold mb-5 xl:mb-10 ${solution.color}`}>{solution.title}</h3>
+              <p className="text-sm xl:text-lg">{solution.description}</p>
             </div>
           ))
         }
