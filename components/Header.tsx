@@ -60,11 +60,11 @@ export default function Header() {
     <div
       className="relative text-default py-3 px-3 xl:px-10 mx-auto w-full flex xl:items-center"
     >
-      <div className="flex justify-between w-full xl:w-auto">
+      <div className="flex justify-center w-full xl:w-auto">
         <a className="flex items-center ml-2 xl:ml-0" href="/">
           <Image className='h-8' width={130} height={32} src="/bitcoinOS-logo.png" alt=""  />
         </a>
-        <div className="flex items-center xl:hidden">
+        <div className="hidden items-center xl:hidden">
           <ToggleMenu />
         </div>
       </div>
