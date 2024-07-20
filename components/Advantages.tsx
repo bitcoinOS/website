@@ -32,14 +32,16 @@ export default function Advantages() {
   ]
 
   return (
-    <section id="Our Advantages" className="py-[100px] px-[80px] bg-gradient-to-b from-[#FFE9CF] to-[#F6E7FF]">
-      <h2 className="text-5xl font-bold text-center">Our Advantages</h2>
-      <div className="grid grid-cols-5 gap-2 mt-[80px]">
+    <section id="Our Advantages" className="py-10 xl:py-[100px] px-5 xl:px-[80px] bg-gradient-to-b from-[#FFE9CF] to-[#F6E7FF]">
+      <h2 className="text-3xl xl:text-5xl font-bold text-center">Our Advantages</h2>
+      <div className="grid grid-cols-5 gap-2 mt-6 xl:mt-[80px]">
         {
           advantageList.map((advantage, index) => (
-            <div key={index} className="pt-14 px-6 pb-24 bg-white rounded-3xl">
-              <advantage.icon />
-              <p className="mt-8 text-left text-xl text-slate-600">{advantage.description}</p>
+            <div key={index} className="col-span-5 xl:col-span-1 flex xl:flex-col gap-4 xl:gap-8 p-6 xl:pt-14 xl:pb-24 bg-white rounded-3xl">
+              <div className="w-12 flex xl:w-auto">
+                <advantage.icon />
+              </div>
+              <p className="text-left text-base xl:text-xl text-slate-600">{advantage.description}</p>
             </div>
           ))
         }
