@@ -29,18 +29,18 @@ export default function Solutions() {
     }
   ]
   return (
-    <section id="Product Solutions" className="bg-blue-50 py-[100px] px-[80px]">
+    <section id="Product Solutions" className="bg-blue-50 py-10 xl:py-[100px] px-5 xl:px-[80px]">
       <div className="container mx-auto">
-        <h2 className="text-5xl font-bold text-center">Product Solutions</h2>
-        <div className="mt-[80px] grid grid-cols-2 gap-20">
+        <h2 className="text-3xl xl:text-5xl font-bold text-center">Product Solutions</h2>
+        <div className="mt-6 xl:mt-[80px] grid grid-cols-2 gap-5 xl:gap-20">
           {
             solotions.map((solotion, index) => (
-              <div key={index} className="bg-white p-[20px] pb-8 rounded-3xl space-y-8">
+              <div key={index} className="col-span-2 xl:col-span-1 bg-white p-[10px] pb-5 xl:p-[20px] xl:pb-8 rounded-3xl space-y-5 xl:space-y-8">
                 <Image className="w-full" src={`/product_solution_${index + 1}.svg`} width={520} height={300} alt=""></Image>
-                <h3 className="text-3xl font-semibold mb-10 text-slate-900">{solotion.title}</h3>
+                <h3 className="text-2xl xl:text-3xl font-semibold mb-10 text-slate-900">{solotion.title}</h3>
                 {
                   solotion.description.map((description, index) => (
-                    <p key={index} className="text-lg">{description}</p>
+                    <p key={index} className="text-sm xl:text-lg">{description}</p>
                   ))
                 }
               </div>
