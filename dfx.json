@@ -1,6 +1,6 @@
 {
   "canisters": {
-    "bitcoinOS": {
+    "bifipal": {
       "frontend": {
         "entrypoint": "out/index.html"
       },
