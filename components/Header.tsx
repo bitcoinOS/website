@@ -95,7 +95,7 @@ export default function Header() {
       >
         <div className="items-center flex justify-between w-full xl:w-auto">
           <div className="flex">
-            <a href="https://test.bitcoinos.cloud" target="_blank" className="btn bg-slate-950 btn-neutral btn-sm h-[36px] text-slate-200">Launch App</a> 
+            <a href="https://testnet.bifipal.com" target="_blank" className="btn bg-slate-950 btn-neutral btn-sm h-[36px] text-slate-200">Launch App</a> 
           </div>
         </div>
       </div>

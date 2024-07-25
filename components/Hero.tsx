@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="z-10 relative flex h-full flex-col justify-center text-left w-[80%] xl:w-[400px] text-slate-700">
           <h1 className="text-[40px] xl:text-[80px] leading-none font-bold italic">BifiPal</h1>
           <p className="mt-5 text-lg xl:mt-8 xl:text-2xl font-400">Unlocking the DeFi Gaming Paradigm for Bitcoin</p>
-          <a href="https://test.bitcoinos.cloud" target="_blank" className="hidden xl:flex mt-8 btn bg-slate-950 btn-neutral btn-sm h-[44px] w-[160px] text-slate-200">Stake Now</a>
+          <a href="https://testnet.bifipal.com" target="_blank" className="hidden xl:flex mt-8 btn bg-slate-950 btn-neutral btn-sm h-[44px] w-[160px] text-slate-200">Stake Now</a>
         </div>
           <Image src="/bitcoin_img_1.png" alt="" className='absolute -bottom-[23%] -right-[30%] xl:-bottom-44 xl:-right-16' width={880} height={880} />
           <Image src="/bitcoin_img_2.png" alt="" className='absolute -left-[25%] top-28 xl:top-auto xl:-bottom-14 xl:left-[400px]' width={260} height={260} />
