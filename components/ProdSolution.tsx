@@ -5,8 +5,8 @@ export default function Solutions() {
     {
       title: 'OS Smart Contract',
       description: [
-        'Android is the application layer of the Linux-centered mobile Internet, bitcoinOS is the financial layer of the Bitcoin-centered value network.',
-        'OS smart contracts are the steward to bitcoinOS, and are the entry point for managing bitcoin assets.'
+        'Android is the application layer of the Linux-centered mobile Internet, BifiPal is the financial layer of the Bitcoin-centered value network.',
+        'OS smart contracts are the steward to BifiPal, and are the entry point for managing bitcoin assets.'
       ]
     },
     {
@@ -24,7 +24,7 @@ export default function Solutions() {
     {
       title: 'Yield Market',
       description: [
-        'After the user staked btc, the principal token and yield token obtained by the user can be freely circulated and traded in the market, and bitcoinOS provides the corresponding Yield market and swap for the service.'
+        'After the user staked btc, the principal token and yield token obtained by the user can be freely circulated and traded in the market, and BifiPal provides the corresponding Yield market and swap for the service.'
       ]
     }
   ]

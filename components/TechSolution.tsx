@@ -17,7 +17,7 @@ export default function TechSolution() {
         <div className="xl:col-span-1 flex flex-col justify-center divide-y divide-slate-400 text-center xl:text-left">
           <div className="py-4">
             <h3 className="text-2xl xl:text-4xl font-bold bg-gradient-to-r from-[#A134FF] to-[#FF991D] text-transparent bg-clip-text">Triple-Best Goods</h3>
-            <p className="text-xl xl:text-2xl mt-5 xl:mt-12"><span className="font-bold">bitcoinOS</span> like a airplane</p>
+            <p className="text-xl xl:text-2xl mt-5 xl:mt-12"><span className="font-bold">BifiPal</span> like a airplane</p>
           </div>
           <div className="space-y-8 py-8 xl:py-4">
             <div>

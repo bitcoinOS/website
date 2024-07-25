@@ -6,7 +6,17 @@ export default function Highlight() {
       title: 'The 1st Bitcoin native smart contract',
       descriptions: [
         'The innovation of using Bitcoin native smart contracts creates a new paradigm for Bitcoin applications.',
-        'bitcoinOS utilizes this innovation to establish a bitcoin finance (bi-fi) layer, which bridges to all of the Bitcoin ecosystem, as well as the real world, such as the various btc-ETF funds around the world.'
+        'BifiPal utilizes this innovation to establish a bitcoin finance (bi-fi) layer, which bridges to all of the Bitcoin ecosystem, as well as the real world, such as the various btc-ETF funds around the world.'
+      ],
+    },
+    {
+      className: 'col-span-6 xl:col-span-3 bg-purple-100/50 border-2 border-purple-300',
+      titleColor: 'text-purple-500',
+      title: 'Defi Game',
+      descriptions: [
+        'BifiPal created a new Paradigm, staking has become a community behavior, not just BTC, any kind of asset holds a staking marathon here.',
+        'BifiPal share the liquidity of various assets in the Ethereum and Solana ecosystems using ICP Chain Fusion.',
+        'Extremely low gas fees and unlimited scalability'
       ],
     },
     {
@@ -14,19 +24,10 @@ export default function Highlight() {
       titleColor: 'text-blue-500',
       title: 'Security & Freedom',
       descriptions: [
-        'bitcoinOS can obtain staking income without users moving their btc ownership. The user’s btc is always on the Bitcoin network and is under the control of the user.',
-        'In bitcoinOS, staked assets can be unlocked at any time through the interest rate market. bitcoinOS provides liquidity for btc itself and its interests.'
+        'BifiPal can obtain staking income without users moving their btc ownership. The user’s btc is always on the Bitcoin network and is under the control of the user.',
+        'In BifiPal, staked assets can be unlocked at any time through the interest rate market. BifiPal provides liquidity for btc itself and its interests.'
       ],
-    },
-    {
-      className: 'col-span-6 xl:col-span-3 bg-purple-100/50 border-2 border-purple-300',
-      titleColor: 'text-purple-500',
-      title: 'Inter-Chain & AI',
-      descriptions: [
-        'bitcoinOS uses ICP Chain Fusion technology to achieve inter-chain and interoperability among major blockchains, and share the liquidity of various assets in the Ethereum and Solana ecosystems.',
-        'With WebAssembly runtime,  bitcoinOS enables facilitate innovative AI applications in the Bitcoin ecosystem.'
-      ],
-    },
+    },    
   ]
   return (
     <section id="Highlight" className="py-10 xl:py-[100px] px-5 xl:px-[80px]">

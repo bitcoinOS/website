@@ -40,7 +40,7 @@ export default function Hero() {
     {
       title: "100% on chain with ICP",
       description: [
-        "bitcoinOS runs on the best cryptography network",
+        "BifiPal runs on the best cryptography network",
         "Chain-Key & Threshold Cryptography",
         "Modular blockchain network",
         "Smart Contract Container",
@@ -72,8 +72,8 @@ export default function Hero() {
 
   return (
     <div className="flex flex-col items-center bg-white py-10 xl:py-[100px]">
-      <h2 className="text-3xl xl:text-5xl font-bold">What&apos; bitcoinOS</h2>
-      <p className="text-sm xl:text-xl text-gray-600 font-400 italic mt-2">Make bitcoin the center of finance</p>
+      <h2 className="text-3xl xl:text-5xl font-bold">What&apos; BifiPal</h2>
+      <p className="text-sm xl:text-xl text-gray-600 font-400 italic mt-2">Make Bitcoin the Pioneer of Finance</p>
       <div className="flex flex-row w-full mt-6 xl:mt-16 px-5 xl:px-[80px]">
         <div className="hidden xl:block xl:w-1/2 space-y-4 font-500 text-2xl">
           {

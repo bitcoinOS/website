@@ -29,7 +29,7 @@ export default function RoadMap() {
       title: 'Q1 2025',
       events: [
         'osBTC and liquidity protocol',
-        'Launch bitcoinOS swap protocol',
+        'Launch BifiPal swap protocol',
         'Bitcoin ETF financial fund',
         'Network-wide airdrop',
       ]

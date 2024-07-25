@@ -62,7 +62,7 @@ export default function Header() {
     >
       <div className="flex justify-center w-full xl:w-auto">
         <a className="flex items-center ml-2 xl:ml-0" href="/">
-          <Image className='h-8' width={130} height={32} src="/bitcoinOS-logo.png" alt=""  />
+          <Image className='h-8' width={130} height={32} src="/BifiPal-logo.png" alt=""  />
         </a>
         <div className="hidden items-center xl:hidden">
           <ToggleMenu />

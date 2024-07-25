@@ -8,8 +8,8 @@ const ubuntu = Ubuntu({
 });
 
 export const metadata: Metadata = {
-  title: "Bifipal - A bitcoin native smart contact & finance layer",
-  description: "A bitcoin native smart contact & finance layer",
+  title: "Bifipal - Unlocking the DeFi Gaming Paradigm for Bitcoin",
+  description: "Unlocking the DeFi Gaming Paradigm for Bitcoin",
 };
 
 export default function RootLayout({

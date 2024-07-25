@@ -1,24 +1,24 @@
 import Image from "next/image";
-import bitcoinOSLogo from '@/public/bitcoinOS-logo.png';
+import BifiPalLogo from '@/public/BifiPal-logo.png';
 
 export default function Footer() {
   return (
     <footer className="flex flex-col pt-10 pb-5 xl:pt-[100px] xl:pb-6 px-5 xl:px-[80px]">
       <div className="w-full py-5 xl:py-16 xl:px-20 flex flex-col gap-8 xl:flex-row justify-between items-center border border-slate-200 rounded-3xl">
         <div>
-          <Image className='h-8 w-auto m-auto xl:ml-0' src={bitcoinOSLogo} alt="" />
-          <p className="text-xs text-slate-800 italic mt-3">Make bitcoin the center of finance</p>
+          <Image className='h-8 w-auto m-auto xl:ml-0' src={BifiPalLogo} alt="" />
+          <p className="text-xs text-slate-800 italic mt-3">Unlocking the DeFi Gaming Paradigm for Bitcoin</p>
         </div>
         <div className="flex space-x-5 xl:space-x-10 text-xl xl:text-4xl">
           <a href="https://github.com/bitcoinOS/website" target="_blank">
             <GithubIcon />
           </a>
-          <a href="https://twitter.com/BitcoinOS_labs" target="_blank">
+          <a href="https://twitter.com/BifiPal" target="_blank">
             <TwitterIcon />
           </a>
         </div>
       </div>
-      <p className="mt-6 text-center text-xs text-slate-800">Copyright © 2024 bitcoinOS. All rights reserved.</p>
+      <p className="mt-6 text-center text-xs text-slate-800">Copyright © 2024 BifiPal. All rights reserved.</p>
     </footer>
   )
 };
