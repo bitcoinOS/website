@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="relative w-full bg-gradient-to-br bg-[#fce4bc] from-[#fce4bc] via-pink-[#f3bda5] to-purple-300 text-white pt-40 xl:py-20 h-[700px] overflow-hidden">
       <div className="flex h-full mx-6 xl:mx-24 text-left">
         <div className="z-10 relative flex h-full flex-col justify-center text-left w-[80%] xl:w-[400px] text-slate-700">
-          <h1 className="text-[40px] xl:text-[80px] leading-none font-bold italic">BifiPal</h1>
+          <h1 className="text-[40px] xl:text-[80px] leading-none font-bold italic text-slate-950">BifiPal</h1>
           <p className="mt-5 text-lg xl:mt-8 xl:text-2xl font-400">Unlocking the DeFi Gaming Paradigm for Bitcoin</p>
           <a href="https://testnet.bifipal.com" target="_blank" className="hidden xl:flex mt-8 btn bg-slate-950 btn-neutral btn-sm h-[44px] w-[160px] text-slate-200">Stake Now</a>
         </div>
