@@ -3,10 +3,9 @@ import Image from "next/image";
 export default function Solutions() {
   const solotions = [
     {
-      title: 'OS Smart Contract',
+      title: 'DBank',
       description: [
-        'Android is the application layer of the Linux-centered mobile Internet, BifiPal is the financial layer of the Bitcoin-centered value network.',
-        'OS smart contracts are the steward to BifiPal, and are the entry point for managing bitcoin assets.'
+        'BBank is a decentralized Bitcoin bank with functions similar to traditional financial banks, such as financial account management, investment portfolio, wallet management, and btc credit and other derivatives management.',
       ]
     },
     {
